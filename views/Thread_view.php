@@ -20,7 +20,7 @@
 
 	public function render()
 	{
-		// test mysql driver
+		// test mysql driver - will be updated when testing is done
 $query='SELECT u.username, p.title, p.body
           FROM fbb_posts as p
     RIGHT JOIN fbb_users as u
